@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.arrow {color: white;
+    font-size: 2.5rem;
+    position: fixed;
+    top: 80vh;
+    right: 5rem;
+    z-index: 1000;
+    background-color: #016bfd;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+}
+h1 , h2, h3, h4 {
+    color: black;
+    font-family: "Headland One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+    color: rgb(132, 132, 132);
+}
+.right i {
+    color: gray;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    
+}
+a {
+    text-decoration: none;
+}
+.right i:hover {
+    background-color: black;
+    color: white;
+}
+.medcare {
+    padding: 1rem 0.8rem;
+}
+.mid {
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+    background-color: #0a2142;
+}
+.media:hover  {
+    background-color: #016bfd;
+    
+}
+.media-btn{
+    background-color: orangered;
+}
+.media-btn:hover {
+    background-color: #016bfd;
+    color: #016bfd;
+}
+.mid span {
+    color: #016bfd;
+}
+.form-select {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.mid a {
+    text-decoration: none;
+    color: white;
+}
+.jump {
+    padding: 1rem 8rem;
+    background-color: #71aef8b4;
+}
+.hero-blank {
+    padding: 7rem 5rem;
+    background-color: rgba(255, 255, 255, 0.579);
+    /* padding-left: 13rem; */
+}
+.medilife-btn {
+    margin: 1rem 0rem;
+    background-color: #016bfd;
+    padding: 0.5rem;
+    padding-right: 0rem;
+    color: white;
+}
+.medilife-btn:hover {
+    background-color: #0a2142;
+    color: white;
+}
+.btn-span{
+    background-color: #0a2142;
+    font-size: 1rem;
+    color: white;
+    padding: 0.6rem;
+}
+.form-control {
+    background-color: transparent;
+    border: none;
+    margin: 1rem 0rem;
+    border-bottom: 2px solid grey;
+}
+.appointment-form-content {
+    background-color: #0a2142;
+    
+}
+.medilife-contact {
+    background-color: #016bfd;
+    padding: 1rem 1rem;
+}
+.breadcumb-title {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.hero {
+    
+    background-image: url(servces.img/breadcumb2.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.padd {
+    padding: 5rem 0rem;
+}
+/* -------main-------- */
+.headline {
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem;
+    font-weight: bolder;
+    color: black;
+}
+/* ------footer------ */
+.main-footer-area {
+    padding: 3rem 1rem;
+    background-color: #0a2142;
+}
+.footer-widget p {
+    padding: 1rem 0rem;color: white;
+}
+.widget-post-content p {
+    color: white;
+}
+.widget-post-content a  {
+    color: white;
+    font-weight: bolder;
+}
+.widget-title h6 {
+    color: #016bfd;
+}
+.footer-contact-form {
+    background-color: #143f7c;
+    padding: 2rem ;
+}
+
+
+
+@media (max-width: 700px) {
+    .medcare ,.screen {
+        display: none;
+    }
+    .jump {
+        padding: 0.5rem 1rem;
+    }
+    .about-img img {
+        display: none;
+     }
+     .about-img {
+        text-align: center;
+     }
+     .about-text {
+        padding-top: 8rem;
+        padding-left: 2rem;
+    }
+}
+@media (max-width: 500px) {
+    .as {
+        display: none;
+    }
+    .about-img img {
+        width: 80vw;
+     }
+     .about img {
+        text-align: center;
+     }
+}
